@@ -17,7 +17,7 @@
         footer {
             text-align: center;
         }
-        div {
+        div, ul, menu {
             display: block;
         }
         div.main {
@@ -35,21 +35,25 @@
         }
         ul.list {
             list-style-type: none;
+            margin: 0;
+            padding: 0 12px;
         }
         li.left {
-
         }
-        li.left > a{
+        li.left > a {
+            display: block;
+            background: url("img/list-icon.png") no-repeat 0 14px;
+            padding: 14px 17px;
             text-decoration: none;
+            border-bottom: 1px dotted #bbb;
         }
         table.img_container {
             border-collapse: collapse;
         }
         table.img_container td {
-
         }
         table.img_container img {
-            width: 280px;
+            width: 100%;
         }
     </style>
 </head>
@@ -73,11 +77,13 @@
                 <td><img src="img/pic_sample01.JPG"></td>
                 <td><img src="img/pic_sample01.JPG"></td>
                 <td><img src="img/pic_sample01.JPG"></td>
+                <td><img src="img/pic_sample01.JPG"></td>
             </tr>
             <tr>
                 <td><p>row2, column1</p></td>
                 <td><p>row2, column2</p></td>
                 <td><p>row2, column3</p></td>
+                <td><p>row2, column4</p></td>
             </tr>
         </table>
         </div>
