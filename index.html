@@ -3,8 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>我们的足迹</title>
+    <style type="text/css">
+        header {
+            display: block;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        footer {
+            display: block;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        div.main {
+            border: 1px solid black;
+            display: block;
+            height: 1000px;
+        }
+        div.left_menu {
+            border: 1px solid black;
+            display: block;
+            float: left;
+            width: 15%;
+            height: 100%;
+        }
+        div.content {
+            border: 1px solid black;
+            display: block;
+            height: 100%;
+        }
+        ul.list {
+            list-style-type: none;
+        }
+        li.left {
+
+        }
+        li.left > a{
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+<header>
+    <h1>欢迎来到FootPrint</h1>
+</header>
 
+<div class="main">
+    <div class="left_menu">
+        <ul class="list">
+            <li class="left"><a href="">海南</a></li>
+            <li class="left"><a href="">钟祥</a></li>
+            <li class="left"><a href="">武汉</a></li>
+            <li class="left"><a href="">欧洲</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <p>Show pictures</p>
+    </div>
+</div>
+
+<footer>
+    <p>Posted by: bigeyecow</p>
+    <p>Contact infomation: <a href="mailto:bigeyecow@qq.com">bigeyecow@qq.com</a></p>
+</footer>
 </body>
 </html>
