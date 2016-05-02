@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <title>我们的足迹</title>
     <style type="text/css">
+        /* Layout test */
+        * {
+            /*outline: 1px solid black;*/
+        }
+        div {
+            outline: 1px solid black;
+        }
         header {
-            display: block;
-            border: 1px solid #ddd;
             text-align: center;
         }
         footer {
-            display: block;
-            border: 1px solid #ddd;
             text-align: center;
         }
-        div.main {
-            border: 1px solid black;
+        div {
             display: block;
+        }
+        div.main {
             height: 1000px;
         }
         div.left_menu {
-            border: 1px solid black;
-            display: block;
             float: left;
-            width: 15%;
-            height: 100%;
+            width: 20%;
+            height:100%;
         }
         div.content {
-            border: 1px solid black;
-            display: block;
+            float: right;
+            width: 80%;
             height: 100%;
         }
         ul.list {
@@ -39,6 +41,15 @@
         }
         li.left > a{
             text-decoration: none;
+        }
+        table.img_container {
+            border-collapse: collapse;
+        }
+        table.img_container td {
+
+        }
+        table.img_container img {
+            width: 280px;
         }
     </style>
 </head>
@@ -57,7 +68,19 @@
         </ul>
     </div>
     <div class="content">
-        <p>Show pictures</p>
+        <table class="img_container" border="1">
+            <tr>
+                <td><img src="img/pic_sample01.JPG"></td>
+                <td><img src="img/pic_sample01.JPG"></td>
+                <td><img src="img/pic_sample01.JPG"></td>
+            </tr>
+            <tr>
+                <td><p>row2, column1</p></td>
+                <td><p>row2, column2</p></td>
+                <td><p>row2, column3</p></td>
+            </tr>
+        </table>
+        </div>
     </div>
 </div>
 
