@@ -2,15 +2,29 @@
 * {
     /*outline: 1px solid black;*/
 }
+
 div {
     outline: 1px solid black;
 }
+
+/* Layout begin */
+body {
+    font-family: Arial, Helvitica, sans-serif;
+    background: #ebe8e8;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
 header {
     text-align: center;
 }
 footer {
     text-align: center;
 }
+
 div, ul, menu {
     display: block;
 }
