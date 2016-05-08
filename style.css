@@ -1,0 +1,55 @@
+/* Layout test */
+* {
+    /*outline: 1px solid black;*/
+}
+div {
+    outline: 1px solid black;
+}
+header {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+div, ul, menu {
+    display: block;
+}
+div.main {
+    height: 1000px;
+}
+div.left_menu {
+    float: left;
+    width: 20%;
+    height:100%;
+}
+div.content {
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+ul.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li.left {
+    background-color: #eee;
+}
+li.left :hover {
+    background-color: #bbb;
+}
+li.left > a {
+    display: block;
+    background: url("images/list-icon.png") no-repeat 0 14px;
+    padding: 14px 17px;
+    text-decoration: none;
+    border-bottom: 1px dotted #bbb;
+}
+table.img_container {
+    border-collapse: collapse;
+}
+table.img_container td {
+}
+table.img_container img {
+    width: 100%;
+}
