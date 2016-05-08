@@ -14,42 +14,42 @@ footer {
 div, ul, menu {
     display: block;
 }
-div.main {
+div#main {
     height: 1000px;
 }
-div.left_menu {
+div#left_menu {
     float: left;
     width: 20%;
     height:100%;
 }
-div.content {
+div#content {
     float: left;
     width: 80%;
     height: 100%;
 }
-ul.list {
+ul#list {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-li.left {
+#list li {
     background-color: #eee;
 }
-li.left :hover {
+#list li :hover {
     background-color: #bbb;
 }
-li.left > a {
+#list li > a {
     display: block;
     background: url("images/list-icon.png") no-repeat 0 14px;
     padding: 14px 17px;
     text-decoration: none;
     border-bottom: 1px dotted #bbb;
 }
-table.img_container {
+table#img_container {
     border-collapse: collapse;
 }
-table.img_container td {
+table#img_container td {
 }
-table.img_container img {
+table#img_container img {
     width: 100%;
 }
